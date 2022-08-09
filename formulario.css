@@ -5,8 +5,8 @@
 }
 
 body {
-    color: #995000;
-    background-color: #1C1B1B;
+    color: #7b4306;
+    background-color: #bbb7b2;
     font-family: Roboto, sans-serif;
 }
 
@@ -17,8 +17,7 @@ ul {
   /* HEADER */
   header {
     padding: 32px 0;
-    text-align: center;
-    
+    text-align: center; 
   }
   
   header,
@@ -26,7 +25,13 @@ ul {
     max-width: 300px;
     margin: 0 auto;
   }
-  
+  .emcima {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: flex-end;
+    justify-content: space-between;
+  }
+
   header h1 {
     margin-bottom: 4px;
     color: #88735D;
@@ -69,12 +74,4 @@ ul {
     text-align: center;
 
     margin-bottom: 24px;
-  }
-
-  Li .details {
-    max-width: 240px;
-  }
-  
-  .details h5 {
-    margin-bottom: 8px;
   }
