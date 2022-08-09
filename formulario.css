@@ -11,13 +11,14 @@ body {
 }
 
 ul {
-    list-style: none;
-  }
+    list-style: circle;
+}
   
   /* HEADER */
   header {
     padding: 32px 0;
     text-align: center;
+    
   }
   
   header,
@@ -28,9 +29,10 @@ ul {
   
   header h1 {
     margin-bottom: 4px;
+    color: #88735D;
   }
   
-  header h1 span {
+  header span {
     color: #995000;
   }
   
