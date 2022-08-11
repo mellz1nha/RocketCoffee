@@ -5,39 +5,42 @@
 }
 
 body {
-    color: #7b4306;
-    background-color: #4E4B48;
-    font-family: roboto; 
+    color: #000000;
+    font-family: roboto, sans-serif; 
+    background: url('grão_café_png_-_Imagem__clipart__grátis-removebg\ 1.svg') no-repeat, url('—Pngtree—wafager\ food\ nutrition\ diet_6403881\ 1.svg') no-repeat, url('textura-de-papel-bege-velho-com-mancha-de-cafe-fundo-amassado-cenario-de-superficie-vintage-grunge-marrom_113767-3357.jpg') no-repeat;
+    background-size: auto, auto, cover;
+    background-position: top right, bottom left;
+    height: 100vh;
 }
 
 ul {
     list-style: circle;
 }
-  
+  h1, h2, h3, .price {
+    font-family: 'Roboto Serif', serif;
+    text-transform: uppercase;
+  }
   /* HEADER */
   header {
     padding: 32px 0;
     text-align: center; 
+    display: flex;
+    flex-direction: column;
   }
-  
+
   header,
   section {
     max-width: 300px;
     margin: 0 auto;
   }
-  .emcima {
-    display: flex;
-    flex-direction: inherit;
-    justify-content: space-between;
-  }
 
   header h1 {
     margin-bottom: 4px;
-    color: #88735D;
+    color: #000000;
   }
   
   header span {
-    color: #995000;
+    color: #583306;
   }
   
   /* SECTION */
@@ -46,10 +49,10 @@ ul {
   }
   
   section h2 {
-    background-color: #FED7AA;
+    background-color:#583306;
+    color: #88735D;
     padding: 8px 16px;
     text-align: center;
-  
     margin-bottom: 24px;
   }
   
@@ -67,10 +70,15 @@ ul {
     margin-bottom: 8px;
   }
   
-  section h4 {
-    background-color: #FED7AA;
+  section h2 {
+    background-color: #40280D;
     padding: 8px 16px;
     text-align: center;
-
     margin-bottom: 24px;
+  }
+  
+  .description {
+    color: #583306;
+    font-weight: 400;
+    font-family: sans-serif;
   }
