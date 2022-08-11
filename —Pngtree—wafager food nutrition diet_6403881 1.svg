@@ -1,12 +1,17 @@
-<svg width="418" height="396" viewBox="0 0 418 396" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-<g style="mix-blend-mode:multiply" filter="url(#filter0_f_514_17)">
-<rect x="-130" y="4" width="544" height="503" rx="251.5" fill="url(#pattern0)"/>
+<svg width="414" height="392" viewBox="0 0 414 392" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<g style="mix-blend-mode:multiply" filter="url(#filter0_i_514_17)">
+<rect x="-130" width="544" height="503" rx="251.5" fill="url(#pattern0)"/>
 </g>
 <defs>
-<filter id="filter0_f_514_17" x="-134" y="0" width="552" height="511" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+<filter id="filter0_i_514_17" x="-130" y="0" width="544" height="507" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
 <feFlood flood-opacity="0" result="BackgroundImageFix"/>
 <feBlend mode="normal" in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
-<feGaussianBlur stdDeviation="2" result="effect1_foregroundBlur_514_17"/>
+<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+<feOffset dy="4"/>
+<feGaussianBlur stdDeviation="2"/>
+<feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1"/>
+<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+<feBlend mode="normal" in2="shape" result="effect1_innerShadow_514_17"/>
 </filter>
 <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
 <use xlink:href="#image0_514_17" transform="translate(0 -0.0407555) scale(0.0004 0.000432604)"/>

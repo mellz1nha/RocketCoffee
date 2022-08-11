@@ -6,8 +6,8 @@
 
 body {
     color: #7b4306;
-    background-color: #bbb7b2;
-    font-family: Roboto, sans-serif;
+    background-color: #4E4B48;
+    font-family: roboto; 
 }
 
 ul {
@@ -27,8 +27,7 @@ ul {
   }
   .emcima {
     display: flex;
-    flex-direction: row-reverse;
-    align-items: flex-end;
+    flex-direction: inherit;
     justify-content: space-between;
   }
 
