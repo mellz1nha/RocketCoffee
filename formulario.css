@@ -13,6 +13,13 @@ body {
     height: 100vh;
 }
 
+@media screen and (max-width: 425px) {
+  body {
+    background: url('textura-de-papel-bege-velho-com-mancha-de-cafe-fundo-amassado-cenario-de-superficie-vintage-grunge-marrom_113767-3357.jpg') no-repeat;
+    background-size: cover;
+  }
+  }
+
 ul {
     list-style: circle;
 }
